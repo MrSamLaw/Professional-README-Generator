@@ -1,21 +1,7 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) { }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) { }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) { }
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+# A
 
 ## Description
-${data.description}
+B
 
 ## Table of Contents
 - [Installation](#installation)
@@ -27,11 +13,11 @@ ${data.description}
 
 ## Installation
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-${data.installation}
+C
 
 ## Usage
 Provide instructions and examples for use. 
-${data.usage}
+D
 Include screenshots as needed.
 
 ## License
@@ -46,7 +32,3 @@ If you followed tutorials, include links to those here as well.
 Go the extra mile and write tests for your application. 
 
 ## Questions
-`;
-}
-
-module.exports = generateMarkdown;
