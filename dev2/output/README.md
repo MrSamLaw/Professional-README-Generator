@@ -1,7 +1,7 @@
 # The GREAT README Generator
 
 ## Description ![](https://img.shields.io/badge/License-MIT-yellow.svg)
-This Application generates README.md for a living by taking a series of user inputs and combining them into a well laid out README.md
+This application generates a GREAT README.md
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,7 +15,7 @@ This Application generates README.md for a living by taking a series of user inp
 npm i
 
 ## Usage
-By following the prompts on the screen, the user will have all they need for a GREAT README.md at the end of the prompts
+Users follow a series of prompts that ask for inputs to be included in a GREAT README.md
 
 
 ## License 
@@ -23,10 +23,10 @@ This project is licensed under ![License: mit](https://img.shields.io/badge/Lice
 For more information, please visit: https://opensource.org/licenses/MIT
 
 ## Contributing
-Contributions are accepted via GitHub & email.  Please refer to the questions section.
+Contributions accepted via GitHub or email
 
 ## Tests
-npm test functions are currently in development
+npm test functionality is being developed
 
 ## Questions
 Any questions can be submitted to via my GitHub page: [MrSamLaw](http://github.com/MrSamLaw)
