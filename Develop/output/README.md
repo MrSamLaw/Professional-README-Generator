@@ -1,7 +1,7 @@
 # A
 
 ## Description
-B
+c
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,16 +12,15 @@ B
 - [Questions](#questions)
 
 ## Installation
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-C
+s
 
 ## Usage
-Provide instructions and examples for use. 
-D
-Include screenshots as needed.
+d
 
-## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+
+## License 
+![License: mit](https://img.shields.io/badge/License-MIT-yellow.svg) 
+ https://opensource.org/licenses/MIT
 
 ## Contributing
 List your collaborators, if any, with links to their GitHub profiles.

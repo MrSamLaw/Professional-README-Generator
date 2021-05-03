@@ -13,7 +13,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        messgae: 'Provide a short description explaining the what, why, and how of your project.',
+        message: 'Provide a short description explaining the what, why, and how of your project.',
     },
     {
         type: 'input',
@@ -25,8 +25,27 @@ const questions = [
         name: 'usage',
         message: 'Provide instructions and examples for use.',
     },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Please select a license:',
+        default: 'MIT',
+        choices: [
+            {
+                key: 'Apache',
+                name: 'Apache',
+                value: 'apache',
+            },
+            {
+                key: 'MIT',
+                name: 'MIT',
+                value: 'mit',
+            },
+        ]
+    },
 ];
 
+// , 'Boost', 'BSD', 'Eclipse', 'GNU', 'IBM', 'ISC', 'Mozilla', 'BY', 'ODbL', 'PDDL', 'Perl', 'Artistic', 'SIL', 'Unlicense', 'WTFPL', 'Zlib'
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     console.log(data);
