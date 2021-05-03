@@ -13,23 +13,23 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a short description explaining the what, why, and how of your project.',
+        message: 'Provide a short description explaining your project.',
     },
     {
         type: 'input',
         name: 'installation',
         message: 'What are the steps required to install your project?',
+        default: 'npm i',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for use.',
+        message: 'How does the user use the app?',
     },
     {
         type: 'list',
         name: 'license',
         message: 'Please select a license:',
-        default: 'MIT',
         choices: [
             {
                 key: 'Apache',
@@ -42,6 +42,31 @@ const questions = [
                 value: 'mit',
             },
         ]
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'How can others contribute?',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'How does a user test this app?',
+    },
+    {
+        type: 'input',
+        name: 'questionsName',
+        message: 'Please enter your full name for questions',
+    },
+    {
+        type: 'input',
+        name: 'questionsGithub',
+        message: 'Please enter your GitHub username',
+    },
+    {
+        type: 'input',
+        name: 'questionsEmail',
+        message: 'Please enter your email address',
     },
 ];
 

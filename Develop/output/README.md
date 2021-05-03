@@ -1,7 +1,7 @@
-# A
+# a
 
-## Description
-c
+## Description ![](https://img.shields.io/badge/License-MIT-yellow.svg)
+s
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,22 +12,23 @@ c
 - [Questions](#questions)
 
 ## Installation
-s
+npm i
 
 ## Usage
-d
+e
 
 
 ## License 
-![License: mit](https://img.shields.io/badge/License-MIT-yellow.svg) 
- https://opensource.org/licenses/MIT
+This project is licensed under ![License: mit](https://img.shields.io/badge/License-MIT-yellow.svg) 
+For more information, please visit: https://opensource.org/licenses/MIT
 
 ## Contributing
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
+d
 
 ## Tests
-Go the extra mile and write tests for your application. 
+a
 
 ## Questions
+Any questions can be submitted to via my GitHub page: [e](http://github.com/e)
+
+Or directly via email to: [s](mailto:c)

@@ -28,7 +28,7 @@ function renderLicenseSection(license) {
   let licBadge = renderLicenseBadge(license);
   let licLink = renderLicenseLink(license);
 
-  return license != "" ? `\n## License \n![License: ${license}](${licBadge}) \n ${licLink}` : "";
+  return license != "" ? `\n## License \nThis project is licensed under ![License: ${license}](${licBadge}) \nFor more information, please visit: ${licLink}` : "";
 
 }
 
@@ -38,7 +38,7 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
 
-## Description
+## Description ![](${renderLicenseBadge(data.license)})
 ${data.description}
 
 ## Table of Contents
@@ -58,15 +58,15 @@ ${data.usage}
 ${license}
 
 ## Contributing
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
+${data.contributing}
 
 ## Tests
-Go the extra mile and write tests for your application. 
+${data.tests}
 
 ## Questions
-`;
+Any questions can be submitted to via my GitHub page: [${data.questionsGithub}](http://github.com/${data.questionsGithub})
+\nOr directly via email to: [${data.questionsName}](mailto:${data.questionsEmail})
+`
 }
 
 module.exports = generateMarkdown;
