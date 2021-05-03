@@ -2,8 +2,10 @@
 
 ![Screen Shot](assets/README-Generator.png)
 Generates README.md files for a living
-![Walkthrough Video](https://drive.google.com/file/d/1PSiz_G1gBFRBH24CeHbs3b3aMPlq06v6/view?usp=sharing)
-![Sample Output]()
+
+[Walkthrough Video](https://drive.google.com/file/d/1PSiz_G1gBFRBH24CeHbs3b3aMPlq06v6/view?usp=sharing)
+
+[Sample Output](develop/output/README.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
