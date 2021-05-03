@@ -1,7 +1,7 @@
-# a
+# The README Generator
 
 ## Description ![](https://img.shields.io/badge/License-MIT-yellow.svg)
-s
+Generating Good READMEs for a living
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,7 +15,7 @@ s
 npm i
 
 ## Usage
-e
+Follow the directions on the screen
 
 
 ## License 
@@ -23,12 +23,12 @@ This project is licensed under ![License: mit](https://img.shields.io/badge/Lice
 For more information, please visit: https://opensource.org/licenses/MIT
 
 ## Contributing
-d
+Contributions accepted via GitHub
 
 ## Tests
-a
+npm test is currently in development
 
 ## Questions
-Any questions can be submitted to via my GitHub page: [e](http://github.com/e)
+Any questions can be submitted to via my GitHub page: [MrSamLaw](http://github.com/MrSamLaw)
 
-Or directly via email to: [s](mailto:c)
+Or directly via email to: [Sam Law](mailto:sam@sam.com)

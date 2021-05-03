@@ -80,7 +80,6 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        console.log(`Generating README.md with ${data.title}`);
         writeToFile('./output/README.md', generateMarkdown(data));
     });
 }
