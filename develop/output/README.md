@@ -1,34 +1,30 @@
-# The GREAT README Generator
+# Team Profile Generator
+![Screen Shot](assets/Team-Profile-Generator.png)
 
 ## Description ![](https://img.shields.io/badge/License-MIT-yellow.svg)
-This application generates a GREAT README.md
+Our clients requested a simple way to build a webpage listing simple information on a Manager's team of Engineers & Interns, so that they have quick access to information.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+[Walkthrough Video](https://drive.google.com/file/d/1PSiz_G1gBFRBH24CeHbs3b3aMPlq06v6/view?usp=sharing)
+
+[Sample Output](develop/output/README.md)
+
+![Sample Output Screenshot](assets/SampleOutput.png)
 
 ## Installation
-npm i
+```npm i``` will install the application along with required dependancies.
 
 ## Usage
-Users follow a series of prompts that ask for inputs to be included in a GREAT README.md
+Run ```npm start``` then follow the prompts.  The HTML Webpage is generated when user selects the "Team is complete, no more additions" option.
 
+## Technologies
+- Node.js, using inquirer & fs packages
+- Bootstrap
+- FontAwesome for icons
 
 ## License 
-This project is licensed under ![License: mit](https://img.shields.io/badge/License-MIT-yellow.svg) 
+This project is licensed under ![License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 For more information, please visit: https://opensource.org/licenses/MIT
 
-## Contributing
-Contributions accepted via GitHub or email
-
 ## Tests
-npm test functionality is being developed
-
-## Questions
-Any questions can be submitted to via my GitHub page: [MrSamLaw](http://github.com/MrSamLaw)
-
-Or directly via email to: [Sam Law](mailto:sam@email.com)
+```npm test``` will run the appropriate Jest tests.
